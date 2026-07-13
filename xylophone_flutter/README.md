@@ -1,17 +1,37 @@
-# xylophone_flutter
+# Xylophone
 
-A new Flutter project.
+A Flutter application that plays different musical notes when the user taps the colored keys.
+
+## Features
+
+- Seven musical notes
+- Audio playback
+- Colorful user interface
+- Interactive buttons
+
+## Widgets Used
+
+- MaterialApp
+- Scaffold
+- Column
+- Expanded
+- TextButton
+
+## Concepts Used
+
+- Audio asset loading
+- Package integration
+- Asset management
+
+## External Package Used
+
+- audioplayers
+
+The `audioplayers` package is used to play sound files stored in the assets folder.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
